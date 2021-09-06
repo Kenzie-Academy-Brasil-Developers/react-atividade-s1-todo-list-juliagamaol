@@ -1,0 +1,30 @@
+:root{
+    --bordinha: 1px solid transparent
+}
+input{
+
+    border-radius: 7px;
+    border: var(--bordinha);
+    padding: 5px;
+    margin-right: 20px;
+    outline: none;
+    font-size: 20px;
+      
+}
+
+#enviar{
+    border-radius: 7px;
+    border: var(--bordinha);
+    padding: 10px;
+    width: 100px;
+    margin-right: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+
+}
+
+#enviar:hover{
+    background: rgb(204, 197, 197);
+   transform: scale(1.0,1.1);
+}
